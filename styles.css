@@ -1,0 +1,42 @@
+  nav {
+    display: flex;
+    background-color: pink;
+    flex-wrap: nowrap;
+    
+  }
+  
+  nav a {
+    background-color: rgb(216, 112, 200);
+    color: purple;
+    padding: 2.9% ;
+    margin: 6% ;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    transition: background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: violet;
+  color: red;
+
+  transition: background-color 0.8s;
+  flex-direction: row;
+}
+
+header{
+    background-color: rgb(238, 130, 193);
+}
+header h1{
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    text-align: center;
+}
+section{
+    background-color: orchid;
+}
+main{
+    background-color: rgb(204, 130, 238);
+}
+header, main,section {
+    overflow: auto;
+  }
